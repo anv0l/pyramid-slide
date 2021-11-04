@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<html>
+  <div id="main">
+    <div id="title">Pyramid slider</div>
+    <div id="controls">
+      <div class="control">
+        <label for="symbol">Brick symbol</label>
+        <select id="symbol">
+          <option value="#">#</option>
+          <option value="$">$</option>
+          <option value="@">@</option>
+          <option value="X">X</option>
+        </select>
+      </div>
+      <div class="control">
+        <label for="range">How high?</label>
+        <input type="range" id="range" min="0" max="20" step="1" value="5" />
+        <div class="control" id="rangeValue"></div>
+      </div>
+    </div>
+    <div id="pyramid"></div>
+  </div>
+  <script language="javascript" src="main.js"></script>
+</html>

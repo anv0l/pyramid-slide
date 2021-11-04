@@ -1,0 +1,45 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 100%;
+  background-color: #eee;
+}
+
+#main {
+  height: 100%;
+}
+
+#pyramid {
+  font-family: "Courier New", Courier, monospace;
+  color: blueviolet;
+  padding: 10px;
+  height: 100%;
+}
+
+#title {
+  background-color: blueviolet;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 20pt;
+  padding: 20px;
+}
+
+#rangeValue {
+  font-weight: bold;
+}
+
+#controls {
+  background-color: #999;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12pt;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.control {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
